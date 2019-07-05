@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Harold Adriaansen">
+  <meta name="description" content="This is the first Miniproject of CI: UCD-resume with Rosie Odenkirk">
+  <meta name="keywords" content="mini-project, Rosie Odenkirk, CI, UCD-resume, Module 4.">
+  <title>
+    Rosie
+  </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+  <header class="row no-gutters">
+    <a href="index.html" class="col-md-4 logo"></a>
+    <div class="col-md-8">
+      <div class="row no-gutters bg-row-name-title">
+        <div class="col heading">
+          <h1 class="name">Rosie Odenkirk</h1>
+          <h2 class="title">Full Stack Developer</h2>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col">
+          <ul id="nav" class="list-inline menu-container">
+            <!-- menu-container class: 
+              is an added class just so i can CSS-Hack the white spacing between the horizontal inline elements, which normally leave a single white spacing! 
+              Keep in mind that by doing this the fontsize will be 0 for every child element. 
+              To counter this, target the children of the ID (in this case #Nav li) and set the font-size back to 14 there.
+            -->
+            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menu-item">
+              <a href="#" class="hvr-sweep-to-bottom">
+                <!-- hvr-sweep-to-bottom: 
+                  is from cdnjs.com & hover.css > http://ianlunn.github.io/Hover/ 
+                  Which is a nice page, to add certain effects from.
+                  Also the targeted css, hvr-sweep-to-bottom:before {},
+                  you can find this in the inspection screen of Chrome!
+                -->
+                <span class="fa fa-home fa-i" aria-hidden="true"></span>
+                <!-- The fa-i class:
+                  will be used instead of i class which Font Awesome is referring to.
+                -->
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menu-item">
+              <a href="#" class="hvr-sweep-to-bottom">
+                <span class="fa fa-graduation-cap fa-i" aria-hidden="true"></span>
+                <span>Resume</span>
+              </a>
+            </li>
+            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menu-item">
+              <a href="#" class="hvr-sweep-to-bottom">
+                <span class="fa fa-comment-o fa-i" aria-hidden="true"></span>
+                <span>Contact</span>
+              </a>
+            </li>
+            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menu-item">
+              <a href="#" class="hvr-sweep-to-bottom">
+                <span class="fa fa-download fa-i" aria-hidden="true"></span>
+                <span>Download</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section>
+
+  </section>
+
+  <footer class="container-fluid">
+    <div id="footerdetails" class="row">
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">About</h5>
+        <p class="inline-block">
+          Full Stack Developer.
+          Skilled in everything from HTML to Heroku.
+          The capacity for structural and design thinking.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">Download</h5>
+        <p class="inline-block">
+          Need a printable version of my cv?
+          Download it here.
+          <a href="#" target="_blank" class="cv-pdf">
+            <span Class="fa fa-download fa-i" aria-hidden="true"></span>
+            <span class="sr-only">Download Link.</span>
+            <!-- sr-only:
+                This will only be used for screen readers, it will not be seen on the website itself!
+            -->
+          </a>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">Social</h5>
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a href="#" target="_blank" title="Facebook">
+              <span class="fa-i fa fa-facebook" aria-hidden="true"></span>
+              <span class="sr-only">Facebook Link</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" target="_blank" title="Twitter">
+              <span class="fa-i fa fa-twitter" aria-hidden="true"></span>
+              <span class="sr-only">Twitter Link</span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="#" target="_blank" title="Linkedin">
+              <span class="fa-i fa fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">Linkedin Link</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" target="_blank" title="Pinterest">
+              <span class="fa-i fa fa-pinterest" aria-hidden="true"></span>
+              <span class="sr-only">Pintersest Link</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" target="_blank" title="Instagram">
+              <span class="fa-i fa fa-instagram" aria-hidden="true"></span>
+              <span class="sr-only">Instagram Link</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" target="_blank" title="YouTube">
+              <span class="fa-i fa fa-youtube" aria-hidden="true"></span>
+              <span class="sr-only">YouTube Link</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

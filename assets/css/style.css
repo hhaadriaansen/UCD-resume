@@ -1,0 +1,199 @@
+/* -----------------------Font awesome import */
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+
+/*----------------------Colours */
+.bg-row-name-title {
+  background-color: #676767;
+}
+
+.ui-menu-color-home {
+  background-color: #E70000;
+}
+
+.ui-menu-color-resume {
+  background-color: #FF8c00;
+}
+
+.ui-menu-color-contact {
+  background-color: rgba(255, 238, 0, 0.897);
+}
+
+.ui-menu-color-download {
+  background-color: #00811F;
+}
+
+
+/* -----------------------Special padding, margins, text */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: "Exo", sans-serif;
+  color: #fafafa;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* -----------------------Heading */
+header {
+  margin: 0;
+}
+
+.heading {
+  margin-left: 50px;
+}
+
+.logo {
+  background: url("../images/rosie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.name {
+  font-family: "Exo", sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: #ffffff;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
+.menu-container {
+  font-size: 0;
+}
+
+#nav {
+  margin: 0;
+}
+
+#nav li {
+  font-size: 14px;
+  padding: 0;
+}
+
+.menu-item {
+  height: 120px;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-item a {
+  text-decoration: none;
+  width: 100%;
+  height: 120px;
+  color: #ffffff;
+}
+
+.menu-item a .fa-i {
+  padding-top: 22px;
+  display: block;
+  font-size: 26px;
+  color: #fafafa
+}
+
+.menu-item a span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+
+/* -----------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
+}
+
+/* -----------------------Sections */
+
+
+
+/* -----------------------Footer */
+footer {
+  background-color: #676767;
+  min-height: 120px;
+  font-weight: 300;
+  color: #fafafa;
+}
+
+.cv-pdf span.fa-i {
+  font-size: 18px;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 5px;
+
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf span.fa-i:hover {
+  color: #e84610;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a span.fa-i {
+  width: 32px;
+  height: 32px;
+  padding: 12px;
+  border-radius: 50%;
+  line-height: 7px;
+  color: #fafafa;
+  background: #8f8f8f;
+  text-align: center;    
+  /* text-align: center; 
+  Does not do anything with the code, why? 
+  Does it have something to do with the span class="fa-i" instead of i-element?? */ 
+
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a span.fa-i:hover {
+  background: #e84610;
+}
+
+#footerdetails {
+  padding: 20px;
+}
